@@ -5,3 +5,7 @@ locations:
     build:
       directory: ./
       registry: 247002331346.dkr.ecr.eu-north-1.amazonaws.com/k8s-dagster-hello-world
+    container_context:
+      k8s:
+        image_pull_secrets:
+          - name: k8s-dagster-hello-world-ecr-secret
