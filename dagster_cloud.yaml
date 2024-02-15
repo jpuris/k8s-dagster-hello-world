@@ -4,5 +4,4 @@ locations:
       package_name: quickstart_etl
     build:
       directory: ./
-      registry: <account-id>.dkr.ecr.us-west-2.amazonaws.com/<image-name>
-      # registry: ghcr.io/<org>/<image-name>
+      registry: 247002331346.dkr.ecr.eu-north-1.amazonaws.com/k8s-dagster-hello-world
