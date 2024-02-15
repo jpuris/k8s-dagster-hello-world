@@ -133,6 +133,7 @@ jobs:
           tags: ${{ env.IMAGE_REGISTRY }}:${{ env.IMAGE_TAG }}-quickstart_etl
           cache-from: type=gha
           cache-to: type=gha,mode=max
+          platforms: linux/arm64,linux/amd64
 
       - name: Update build session with image tag for quickstart_etl
         id: ci-set-build-output-example-location
